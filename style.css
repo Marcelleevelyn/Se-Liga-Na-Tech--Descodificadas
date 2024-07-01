@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    color: black;
+}
+body{
+    font-family: "Playwrite DE Grund", cursive;
+
+}
+/*CSS do cabeçalho do site*/
+header{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+header::before{
+content: '';
+position: absolute;
+inset: 0;
+background-image: url(img/fotodosite.jpg);
+background-size: cover;
+background-position: 100%;
+z-index: -1;
+opacity: 0.7;
+}
+#logotipo{
+   height: 90px;
+   padding: 5%;
+}
+h1{
+    text-align: right;
+    width: 50%;
+    margin-top: 20%;
+    font-size: 3.125em;
+}
+/*código do menu do site*/
+nav{
+  background-color: transparent;
+  text-align: center;
+  list-style-type: none;
+  border: 1px right rgb(255,255,255,0.5);
+  font-weight: bold;
+  padding: 0.5%;
+}
+nav li{
+    background-color: rgb(255,255,255,0.5);
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    border-left: 1px left rgba(9, 136, 221, 0.432);
+}
+nav a {
+    background-color: rgba(9, 136, 221, 0.432);
+   padding: 0.4em 0.8em;
+   display: block;
+   text-decoration: none;
+
+}
+nav a:hover{
+background-color: rgba(204, 202, 80, 0.432);
+color: black;
+text-shadow: 0px 0px 5px black;
+text-decoration: none;
+}
+/*Css do conteúdo*/
+article{
+background-color: rgb(21, 148, 199);
+padding: 3.75em;
+font-size: 1.875em;
+}
+.conteudo{
+    background-color: #f8da45;
+}
+h2,h3{
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+    padding: 5%;
+}
+h3{
+    font-size: 1.875em;
+    margin-bottom: 5%;
+}
+.destaque3{
+    width: 50%;
+    height: 45%;
+    margin-left: 28%;
+}
+.conteudo1{
+    font-size: 1.60em;
+    padding: 5%;
+}
+.video{
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.destaque1{
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.adicionais{
+background-color:rgb(21, 148, 199);
+display: flex;
+padding: 5%;
+}
+.newsletter{
+    font-size: 0.85em;
+}
+/*Css do formulário*/
+form{
+    background-color:#f8da45;
+    border-radius: 15px;
+    width: min-content;
+    align-items: center;
+    padding: 5%;
+
+}
+input{
+    border-radius: 20px;
+    border: 2px rgb(21, 148, 199) solid;
+    margin-bottom: 5%;
+
+}
+/*css do botão do formulário*/
+.btn{
+    text-align: center;
+    font-family: "Playwrite DE Grund", cursive;
+    background: rgb(21, 148, 199);
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 25%;
+}
+/*Css do mapa*/
+.localizacao{
+    font-size: 1.5em;
+    margin-left: 20%;
+}
+.mapa{
+    margin-left: 5%;
+}
+/*css do rodape*/
+footer{
+    background-color:#f8da45;
+    text-align: center;
+    padding: 2%;
+}

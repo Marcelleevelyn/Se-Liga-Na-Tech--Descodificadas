@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se Liga Na Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---Cabeçalho do site-->
+    <header class="Inicio">
+        <figure>
+        <img src="/img/logotipo do se liga.png" alt="logotipo do site" id="logotipo">
+        </figure>
+        <h1>Se Liga Na Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="#pinicial" class="actived js-link" >Página Inicial</a></li>
+                <li><a href="#noticias" class="actived js-link">Notícias</a></li>
+                <li><a href="#ferramentas" class="actived js-link">Ferramentas</a></li>
+                <li><a href="#fofoca" class="actived js-link">#Fofoca</a></li>
+            </ul>
+       </nav>
+    </header>
+    <!--Conteúdo principal-->
+    <main>
+        <article>
+         <p>O Se Liga Na Tech é um site que possui o objetivo de trazer as principais notícias, dicas de ferramentas
+            e um momento fofoca do mundo da tech para contribuir com o seu conhecimento sobre a tecnologia.</p>
+        </article>
+        <section class="conteudo">
+            <h2>Destaques:</h2>
+       <!--Seção de notícias-->
+        <div id="noticias" class="secoes">
+            <h3>Notícia:</h3>
+            <figure class="destaque1">
+            <img src="/img/noticia tecnologia.jpg" alt="imagem de planta tecnologica">
+            <figcaption><a href="https://www.cnnbrasil.com.br/tecnologia/brasil-vai-desenvolver
+                -cultivo-de-alimentos-no-espaco-em-projeto-da-nasa/#:~:text=Brasil%20vai%20
+                desenvolver%20cultivo%20de%20alimentos%20no%20espa%C3%A7o%20em%20projeto%20da%20Nasa,
+                 -Solu%C3%A7%C3%A3o%20ajudar%C3%A1%20a&text=O%20Brasil%20vai%20desenvolver%20formas,
+                 levar%20para%20o%20Projeto%20Artemis."
+                 > O Brasil vai desenvolver formas de cultivar alimentos fora do planeta Terra.</a></figcaption>
+            </figure>
+        </div>
+        <!--Seção de ferramentas-->
+         <div id="ferramentas" class="secoes">
+            <h3>Ferramenta:</h3>
+            <p class="conteudo1">O Be My Eyes é um aplicativo móvel dinamarquês, o qual por meio de uma chamada de vídeo permite que os 
+                voluntários deem auxílio para pessoas com deficiência visual em situações cotidianas,
+             a exemplo de descrever um ponto turístico.</p>
+            <figure>
+             <iframe  class="video" width="600" height="500" src="https://www.youtube.com/embed/KwNUJ69RbwY?si=axCgzGtgcLKdOKxv" 
+             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+             allowfullscreen></iframe>
+            </figure>
+         </div>
+         <!--Seção de fofoca-->
+           <div id="fofoca" class="secoes">
+            <h3>Momento Fofoca:</h3>
+            <figure>
+                <img class="destaque3" src="/img/fofoca.png" alt="imagem do duolingo">
+            </figure>
+            <p class="conteudo1"> O momento fofoca de hoje será sobre o incrivel aplicativo de idiomas chamado: Duolingo. Já se perguntou
+                sobre as inovações desse aplicativo? Então, uma das maiores inovações desse app foi a criação de
+                sua própria tecnologia de aprendizado de máquina. O aprendizado de máquina do Duolingo se chama Birdbrain('cérebro
+                de passarinhos'), o qual utiliza dados de 500 milhões de exercícios feitos diariamente para
+                 escolher e organizar tarefas personalizadas para cada pessoa. Fanstático né?
+            </p>
+           </div>
+        </section>
+        <!--Seção de adicionais-->
+        <section class="adicionais">
+           
+            <!--Formulário-->
+            <form> 
+            <p class="newsletter"> Que tal continuar recebendo as principais novidades, ferramentas 
+            e fofocas do mundo tech? Inscreva-se na nossa newsletter:
+            </p>
+            <label for="'user">Nome:</label>
+             <input type="name" name="Nome">
+             <br>
+             <label for="em">Email:</label>
+             <input type="email" name='email' required>
+             <input class="btn" type="submit" name="Enviar" value="Enviar" onclick="botaoAcionado()">
+            </form>
+            <!--Localização-->
+            <p class="localizacao">Localização:</p>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248902.31269727097!2d-38.58500835548001!3d
+            -12.901378705087653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13 .1!3m3!1m2!1s0x716112050422ebd%3A0xf71c84369573db9d
+            !2sSalvador%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1719768764416!5m2!1spt-BR!2sbr" width="400" height="350"
+             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+     </main>
+     <!--Rodape-->
+    <footer>&copy Copyright 2024 by <a href="https://github.com/Marcelleevelyn">Marcelle Santos</a></footer>
+    <!--Código de javaScript-->
+    <script src="script.js"></script>
+</body>
+</html>
